@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 10px;
+            background-color: #f0f0f0; /* Light gray background */
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 16px; /* Increased padding for a cleaner look */
+        }
+
+        h3 {
+            text-align: center;
+            padding-top: 2em;
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .addpagebutton,
+        .additembutton {
+            width: 100%;
+            display: block;
+            margin: 0 auto; /* Center the button horizontally */
+            padding: 12px 20px; /* Increased padding for a larger button */
+            font-size: 16px; /* Larger font size */
+            cursor: pointer;
+            background-color: #3498db; /* Blue color */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s ease; /* Smooth background color transition */
+        }
+
+        .additembutton {
+            padding: 10px 16px; /* Adjusted padding for the smaller button */
+            font-size: 14px; /* Larger font size for the smaller button */
+        }
+
+        .addpagebutton:hover,
+        .additembutton:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        label {
+            display: block;
+            margin-top: 15px; /* Add some space between the button and label */
+            color: #333;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <button class="addpagebutton" id="addThisPage">Add This Page</button>
+
+    <h3>Add Custom Item</h3>
+    <label for="customLink">Add Item</label>
+    <input type="text" id="customLink" placeholder="Enter link">
+    <button class="additembutton" id="addCustomItem">Add Custom Item</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>

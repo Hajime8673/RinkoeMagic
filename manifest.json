@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Rinkoe Magic",
+    "version": "1.0",
+    "description": "Makes it easier for you to add links to your Rinkoe.com collections.",
+    "permissions": ["contextMenus", "activeTab"],
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      },
+      "default_title": "Open Popup",
+      "default_popup": "popup.html"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["popup.html"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
