@@ -7,11 +7,11 @@
 ### For now, you can install the extension via Developer Mode.
 ### Download
 - Go to https://github.com/Hajime8673/RinkoeMagic/releases
-- Download Rinkoe.Magic.1.0.zip
+- Download `Rinkoe.Magic.1.0.zip`
 - Extract the ZIP file
 ### Install:
 1. Go to `chrome://extensions/`
-2. Enable Developer Mode (Top Right On The Manage Extension Page)
-3. Click Load Unpacked (Top Left Of The Screen)
+2. Enable `Developer Mode` (Top Right On The Manage Extension Page)
+3. Click `Load nnpacked` (Top Left Of The Screen)
 4. Select The Folder with the extension files.
 5. Pin the extension to your toolbar for quick access.
