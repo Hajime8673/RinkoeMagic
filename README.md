@@ -12,6 +12,6 @@
 ### Install:
 1. Go to `chrome://extensions/`
 2. Enable `Developer Mode` (Top Right On The Manage Extension Page)
-3. Click `Load nnpacked` (Top Left Of The Screen)
+3. Click `Load unpacked` (Top Left Of The Screen)
 4. Select The Folder with the extension files.
 5. Pin the extension to your toolbar for quick access.
