@@ -4,8 +4,9 @@
 - I will update and add the chrome web store link here once its up in there.
 
 
-### For now, you can install the extension via Developer Mode.
-### Download
+### Installation
+- You can add from [Chrome Web Store](https://chromewebstore.google.com/detail/rinkoe-magic/pfgeobobfpickjekhgjblgeojcamacjh)
+### Manual Download and Install
 - Go to https://github.com/Hajime8673/RinkoeMagic/releases
 - Download `Rinkoe.Magic.1.0.zip`
 - Extract the ZIP file
