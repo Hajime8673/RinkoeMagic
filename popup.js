@@ -15,7 +15,7 @@ document.getElementById("addThisPage").addEventListener("click", function () {
     const customLink = encodeURIComponent(customLinkInput.value);
   
     // Check if the link input is not empty
-    if (customLink !== "" && (customLink.startsWith("http://") || customLink.startsWith("https://"))) {
+    if (customLink !== "" && (customLinkInput.value.startsWith("http://") || customLinkInput.value.startsWith("https://"))) {
       chrome.windows.create({
         url: `https://rinkoe.com/ext/additem?url=${customLink}`,
         type: "popup",

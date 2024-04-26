@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Rinkoe Magic",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Makes it easier for you to add links to your Rinkoe.com collections.",
     "permissions": ["contextMenus", "activeTab"],
     "icons": {
