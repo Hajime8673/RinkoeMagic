@@ -26,7 +26,6 @@ document.getElementById("addCustomItem").addEventListener("click", function () {
           type: "popup",
           width: 500,
           height: 700
-      });
   } else {
       // Change the border color to red if the link is empty
       customLinkInput.style.borderColor = "red";
