@@ -44,3 +44,15 @@ chrome.runtime.onInstalled.addListener(function () {
     });
   }
   
+
+  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+    if (message.url) {
+        const url = encodeURIComponent(message.url);
+        chrome.windows.create({
+            url: `https://rinkoe.com/ext/additem?url=${url}`,
+            type: "popup",
+            width: 500,
+            height: 700
+        });
+    }
+});
